@@ -285,16 +285,40 @@ $(function () {
     $("#page-after-banner").click(function () {
         switch (banner) {
             case 1:
-                $('#header').css('background-image', 'url(../assets/images/banner-2.png)').animate({ opacity: 1 }, 200);
+                $('#header').animate({
+                    opacity: 0.5,
+                    backgroundSize: '110% auto',
+                    backgroundPositionX: '-5%'
+                }, 200, function () {
+                    $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-2.png)').animate({
+                        opacity: 1
+                    }, 200);
+                });
                 banner = 2;
                 break;
             case 2:
-                $('#header').css('background-image', 'url(../assets/images/banner-3.png)').animate({ opacity: 1 }, 200);
+                $('#header').animate({
+                    opacity: 0.5,
+                    backgroundSize: '110% auto',
+                    backgroundPositionX: '-5%'
+                }, 200, function () {
+                    $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-3.png)').animate({
+                        opacity: 1
+                    }, 200);
+                });
                 banner = 3;
 
                 break;
             case 3:
-                $('#header').css('background-image', 'url(../assets/images/banner-4.png)').animate({ opacity: 1 }, 200);
+                $('#header').animate({
+                    opacity: 0.5,
+                    backgroundSize: '110% auto',
+                    backgroundPositionX: '-5%'
+                }, 200, function () {
+                    $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-4.png)').animate({
+                        opacity: 1
+                    }, 200);
+                });
                 banner = 1;
 
                 break;
@@ -306,16 +330,40 @@ $(function () {
     $("#page-before-banner").click(function () {
         switch (banner) {
             case 1:
-                $('#header').css('background-image', 'url(../assets/images/banner-3.png)').animate({ opacity: 1 }, 200);
+                $('#header').animate({
+                    opacity: 0.5,
+                    backgroundSize: '110% auto',
+                    backgroundPositionX: '-5%'
+                }, 200, function () {
+                    $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-3.png)').animate({
+                        opacity: 1
+                    }, 200);
+                });
                 banner = 3;
                 break;
             case 2:
-                $('#header').css('background-image', 'url(../assets/images/banner-4.png)').animate({ opacity: 1 }, 200);
+                $('#header').animate({
+                    opacity: 0.5,
+                    backgroundSize: '110% auto',
+                    backgroundPositionX: '-5%'
+                }, 200, function () {
+                    $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-4.png)').animate({
+                        opacity: 1
+                    }, 200);
+                });
                 banner = 1;
 
                 break;
             case 3:
-                $('#header').css('background-image', 'url(../assets/images/banner-2.png)').animate({ opacity: 1 }, 200);
+                $('#header').animate({
+                    opacity: 0.5,
+                    backgroundSize: '110% auto',
+                    backgroundPositionX: '-5%'
+                }, 200, function () {
+                    $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-2.png)').animate({
+                        opacity: 1
+                    }, 200);
+                });
                 banner = 2;
 
                 break;
@@ -334,7 +382,7 @@ $(function () {
                 $(this).addClass('show');
             }
         });
-        
+
     });
 
 
