@@ -287,8 +287,7 @@ $(function () {
             case 1:
                 $('#header').animate({
                     opacity: 0.5,
-                    backgroundSize: '110% auto',
-                    backgroundPositionX: '-5%'
+                    
                 }, 200, function () {
                     $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-2.png)').animate({
                         opacity: 1
@@ -299,8 +298,7 @@ $(function () {
             case 2:
                 $('#header').animate({
                     opacity: 0.5,
-                    backgroundSize: '110% auto',
-                    backgroundPositionX: '-5%'
+                    
                 }, 200, function () {
                     $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-3.png)').animate({
                         opacity: 1
@@ -312,8 +310,7 @@ $(function () {
             case 3:
                 $('#header').animate({
                     opacity: 0.5,
-                    backgroundSize: '110% auto',
-                    backgroundPositionX: '-5%'
+                    
                 }, 200, function () {
                     $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-4.png)').animate({
                         opacity: 1
@@ -332,8 +329,7 @@ $(function () {
             case 1:
                 $('#header').animate({
                     opacity: 0.5,
-                    backgroundSize: '110% auto',
-                    backgroundPositionX: '-5%'
+                    
                 }, 200, function () {
                     $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-3.png)').animate({
                         opacity: 1
@@ -344,8 +340,7 @@ $(function () {
             case 2:
                 $('#header').animate({
                     opacity: 0.5,
-                    backgroundSize: '110% auto',
-                    backgroundPositionX: '-5%'
+                   
                 }, 200, function () {
                     $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-4.png)').animate({
                         opacity: 1
@@ -357,8 +352,7 @@ $(function () {
             case 3:
                 $('#header').animate({
                     opacity: 0.5,
-                    backgroundSize: '110% auto',
-                    backgroundPositionX: '-5%'
+                    
                 }, 200, function () {
                     $(this).css('background-image', 'url(https://jonasabido.github.io/ecosistema/assets/images/banner-2.png)').animate({
                         opacity: 1
