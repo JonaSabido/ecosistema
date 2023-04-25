@@ -1,0 +1,245 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../assets/fonts/Montserrat-Bold.otf);
+}
+
+:root {
+    --customBlueKing: #000a1d;
+    --customGreen: #00b555;
+    --customBlueSky: #00a1b2;
+    --customGreenTransparent: #00b5545d;
+
+
+
+}
+
+
+.bg-blue {
+    background-color: var(--customBlueKing);
+    border-bottom: 2px var(--customGreen) solid;
+}
+
+.montserrat {
+    font-family: montserrat;
+}
+
+body {
+    background-color: var(--customBlueKing) !important;
+    background-image: url(../assets/images/background.png) !important;
+}
+
+#header {
+    background-image: url(../assets/images/banner-4.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+#container-header {
+    height: 100%;
+
+}
+
+.bg-black-transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-black-transparent-hard {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arial-bold-italic {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.arial-italic {
+    font-family: Arial;
+    font-style: italic;
+}
+
+.text-green {
+    color: var(--customGreen);
+}
+
+.bg-green {
+    background-color: var(--customGreen);
+}
+
+.btn-custom-green {
+    border: 2px var(--customGreen) solid;
+    transition: 300ms;
+}
+
+.btn-custom-green:hover {
+    background-color: var(--customGreenTransparent);
+    transition: 300ms;
+}
+
+#image-rigoberta {
+    filter: drop-shadow(0px 0px 5px var(--customGreen));
+}
+
+.text-gray {
+    color: #b1b1b1;
+}
+
+.divider-green {
+    width: 170px;
+    height: 5px;
+    background-color: var(--customGreen);
+    margin: 15px 0px 15px 0px;
+}
+
+.div-green {
+    background-color: var(--customGreen);
+    height: 90%;
+    width: 70%;
+    top: -2%;
+    z-index: 0;
+}
+
+
+
+.div-gray {
+    width: 65%;
+    background-color: #131313;
+    z-index: 1;
+}
+
+.div-image-absolute {
+    top: 15%;
+    z-index: -1;
+}
+
+.first-info {
+    background-image: url(../assets/images/turismo.png);
+    background-size: cover;
+}
+
+.second-info {
+    background-color: #13131387;
+    border: 3px var(--customGreen) solid;
+}
+
+#second-section {
+    right: 10%;
+}
+
+.image-info {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#third-section {
+    border: 3px var(--customGreen) solid;
+    margin-top: 10%;
+}
+
+.third-info {
+    width: 50%;
+}
+
+#image-third-section {
+    border: 3px var(--customGreen) solid;
+}
+
+#div-image-third {
+    top: 0;
+    right: 0;
+    width: 55%;
+}
+
+footer {
+    background-image: url(../assets/images/.png);
+    background-size: cover;
+    background-position: center;
+    background-color: var(--customBlueKing);
+    border-top: 1px var(--customGreen) solid;
+}
+
+#rules {
+    background-image: url(../assets/images/buceo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#rules::-webkit-scrollbar {
+    width: 0; 
+  }
+.rule-number {
+    width: 40px;
+    height: 40px;
+    background-color: var(--customGreen);
+    border-radius: 100%;
+}
+
+.one-em {
+    font-size: 1em;
+}
+
+.page {
+    color: #979797;
+}
+
+.page:hover {
+    color: white;
+}
+
+.clickeable {
+    cursor: pointer;
+}
+
+#arrecifes {
+    margin-top: 20%;
+}
+
+#first-coral {
+    background-image: url(../assets/images/australia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#second-coral {
+    background-image: url(../assets/images/indonesia.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#third-coral {
+    background-image: url(../assets/images/belice.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#fourth-coral {
+    background-image: url(../assets/images/mexico.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+h2 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+h2.show {
+    opacity: 1;
+}
+
+.btn-nav{
+    color: white;
+}
+
+.btn-nav:hover{
+    color: var(--customGreen);
+}
